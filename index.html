@@ -16,31 +16,28 @@
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css">
 
     <!-- Custom CSS -->
-    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="styles/main.css">
 </head>
 <body>
     <div class="reveal">
         <div class="slides">
 
             <!-- Slide 1: Hero -->
-            <section data-background-color="#ffffff">
-                <div class="hero-content">
-                    <div class="logo-container">
-                        <i class="fas fa-shield-alt logo-icon"></i>
-                        <h1 class="hero-title">SmartBuy</h1>
+            <section class="title-slide">
+                <div class="hero">
+                    <div class="hero__logo-container">
+                        <img src="./assets/logo.png" alt="SmartBuy Logo" class="hero__logo">
+                        <h1 class="hero__title">SmartBuy</h1>
                     </div>
-                    <p class="hero-subtitle">O futuro das compras online chegou</p>
+                    <p class="hero__subtitle">O futuro das compras online chegou</p>
 
                     <div class="video-container">
                         <video muted playsinline webkit-playsinline preload="auto">
                             <source src="./assets/videos/Compra_Fácil_por_QR_Code.mp4" type="video/mp4">
                         </video>
-                        <div class="video-overlay">
-                            <i class="fas fa-play"></i>
-                        </div>
                     </div>
 
-                    <div class="hero-tags">
+                    <div class="hero__tags">
                         <span class="tag">Cadastro Único</span>
                         <span class="tag">Compra Instantânea</span>
                         <span class="tag">Máxima Segurança</span>
@@ -49,7 +46,7 @@
             </section>
 
             <!-- Slide 2: O Problema -->
-            <section data-background-color="#eff6ff">
+            <section class="problem-slide">
                 <h2 class="section-title">Todo Brasileiro JÁ VIVEU Isso</h2>
 
                 <div class="problem-stats">
@@ -81,7 +78,7 @@
             </section>
 
             <!-- Slide 3: Impacto para o Negócio -->
-            <section data-background-color="#ffffff">
+            <section class="slide">
                 <h2 class="section-title">O Impacto é BILIONÁRIO</h2>
 
                 <div class="problem-stats">
@@ -111,7 +108,7 @@
             </section>
 
             <!-- Slide 4: Solução Demo -->
-            <section data-background-color="#ffffff">
+            <section class="slide">
                 <h2 class="section-title">Nossa Solução</h2>
 
                 <div class="demo-container">
@@ -119,9 +116,6 @@
                         <video muted playsinline webkit-playsinline preload="auto">
                             <source src="./assets/videos/Compra_de_Celular_no_Metrô.mp4" type="video/mp4">
                         </video>
-                        <div class="video-overlay">
-                            <i class="fas fa-play"></i>
-                        </div>
                     </div>
 
                     <p class="demo-subtitle">Compra real no metrô: QR Code + Biometria = Compra finalizada</p>
@@ -149,42 +143,96 @@
             </section>
 
             <!-- Slide 4: Proposta de Valor -->
-            <section data-background-color="#f8f9fa">
+            <section class="slide">
                 <h2 class="section-title">Proposta de Valor</h2>
 
-                <div class="value-split">
-                    <div class="value-side consumers" style="--animation-order: 1">
-                        <div class="value-header">
-                            <i class="fas fa-users"></i>
-                            <h3>Para Consumidores</h3>
+                <div class="value-proposition">
+                    <div class="value-audience consumers">
+                        <div class="audience-header">
+                            <div class="audience-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <h3>Consumidores</h3>
                         </div>
-                        <ul class="value-list">
-                            <li><i class="fas fa-check"></i> <strong>Compras sem cadastro repetitivo</strong></li>
-                            <li><i class="fas fa-check"></i> Segurança máxima com biometria</li>
-                            <li><i class="fas fa-check"></i> Experiência instantânea</li>
-                            <li><i class="fas fa-check"></i> Dados financeiros nunca expostos</li>
-                            <li><i class="fas fa-check"></i> Funciona em qualquer lugar</li>
-                        </ul>
+
+                        <div class="value-benefits">
+                            <div class="benefit-highlight">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-fingerprint"></i>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>Zero Fricção</h4>
+                                    <p>Compras sem cadastro repetitivo</p>
+                                </div>
+                            </div>
+
+                            <div class="benefit-highlight">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-shield-alt"></i>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>Máxima Segurança</h4>
+                                    <p>Biometria + dados nunca expostos</p>
+                                </div>
+                            </div>
+
+                            <div class="benefit-highlight">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-bolt"></i>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>Instantâneo</h4>
+                                    <p>Funciona em qualquer lugar</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
 
-                    <div class="value-side retailers" style="--animation-order: 2">
-                        <div class="value-header">
-                            <i class="fas fa-store"></i>
-                            <h3>Para Varejistas</h3>
+                    <div class="value-audience retailers">
+                        <div class="audience-header">
+                            <div class="audience-icon">
+                                <i class="fas fa-store"></i>
+                            </div>
+                            <h3>Varejistas</h3>
                         </div>
-                        <ul class="value-list">
-                            <li><i class="fas fa-check"></i> <strong>Economia de 2,7% do faturamento</strong></li>
-                            <li><i class="fas fa-check"></i> Segurança máxima nas transações</li>
-                            <li><i class="fas fa-check"></i> +60% de conversão no checkout</li>
-                            <li><i class="fas fa-check"></i> Dados valiosos de intenção de compra</li>
-                            <li><i class="fas fa-check"></i> Integração simples e rápida</li>
-                        </ul>
+
+                        <div class="value-benefits">
+                            <div class="benefit-highlight">
+                                <div class="benefit-icon">
+                                    <span class="stat-text">2,7%</span>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>Economia Direta</h4>
+                                    <p>Do faturamento anual</p>
+                                </div>
+                            </div>
+
+                            <div class="benefit-highlight">
+                                <div class="benefit-icon">
+                                    <span class="stat-text">+60%</span>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>Conversão</h4>
+                                    <p>No checkout</p>
+                                </div>
+                            </div>
+
+                            <div class="benefit-highlight">
+                                <div class="benefit-icon">
+                                    <i class="fas fa-chart-line"></i>
+                                </div>
+                                <div class="benefit-content">
+                                    <h4>Dados Valiosos</h4>
+                                    <p>Intenção de compra + integração simples</p>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
             </section>
 
-            <!-- Slide 5: Comparativo Competitivo -->
-            <section data-background-color="#ffffff">
+            <!-- Slide 5: Diferencial Competitivo -->
+            <section class="slide">
                 <h2 class="section-title">Diferencial Competitivo</h2>
 
                 <div class="comparison-table">
@@ -194,16 +242,16 @@
                             <strong>SmartBuy</strong>
                         </div>
                         <div class="company-col">
-                            <strong>AME</strong>
-                        </div>
-                        <div class="company-col">
-                            <strong>Magalu Pay</strong>
+                            <strong>PayPal</strong>
                         </div>
                         <div class="company-col">
                             <strong>Apple Pay</strong>
                         </div>
                         <div class="company-col">
                             <strong>Google Pay</strong>
+                        </div>
+                        <div class="company-col">
+                            <strong>Magalu Pay</strong>
                         </div>
                     </div>
 
@@ -214,15 +262,27 @@
                         </div>
                         <div class="company-col smartbuy"><i class="fas fa-check-circle yes"></i></div>
                         <div class="company-col"><i class="fas fa-times-circle no"></i></div>
+                        <div class="company-col"><i class="fas fa-check-circle partial"></i></div>
+                        <div class="company-col"><i class="fas fa-check-circle partial"></i></div>
                         <div class="company-col"><i class="fas fa-times-circle no"></i></div>
-                        <div class="company-col"><i class="fas fa-check-circle partial"></i></div>
-                        <div class="company-col"><i class="fas fa-check-circle partial"></i></div>
                     </div>
 
                     <div class="comparison-row">
                         <div class="feature-col">
-                            <strong>Solução Integrada</strong>
-                            <small>Do cadastro à transação</small>
+                            <strong>Biometria Integrada</strong>
+                            <small>Segurança máxima sem senhas</small>
+                        </div>
+                        <div class="company-col smartbuy"><i class="fas fa-check-circle yes"></i></div>
+                        <div class="company-col"><i class="fas fa-times-circle no"></i></div>
+                        <div class="company-col"><i class="fas fa-check-circle partial"></i></div>
+                        <div class="company-col"><i class="fas fa-check-circle partial"></i></div>
+                        <div class="company-col"><i class="fas fa-times-circle no"></i></div>
+                    </div>
+
+                    <div class="comparison-row">
+                        <div class="feature-col">
+                            <strong>Funciona Offline</strong>
+                            <small>QR Code sem internet</small>
                         </div>
                         <div class="company-col smartbuy"><i class="fas fa-check-circle yes"></i></div>
                         <div class="company-col"><i class="fas fa-times-circle no"></i></div>
@@ -238,68 +298,142 @@
                         </div>
                         <div class="company-col smartbuy"><i class="fas fa-check-circle yes"></i></div>
                         <div class="company-col"><i class="fas fa-check-circle yes"></i></div>
+                        <div class="company-col"><i class="fas fa-times-circle no"></i></div>
+                        <div class="company-col"><i class="fas fa-times-circle no"></i></div>
                         <div class="company-col"><i class="fas fa-check-circle yes"></i></div>
-                        <div class="company-col"><i class="fas fa-times-circle no"></i></div>
-                        <div class="company-col"><i class="fas fa-times-circle no"></i></div>
                     </div>
 
                     <div class="comparison-row">
                         <div class="feature-col">
-                            <strong>Segurança Avançada</strong>
-                            <small>Biometria + cadastro único</small>
+                            <strong>Zero Dados Expostos</strong>
+                            <small>Dados financeiros nunca saem do device</small>
                         </div>
                         <div class="company-col smartbuy"><i class="fas fa-check-circle yes"></i></div>
                         <div class="company-col"><i class="fas fa-times-circle no"></i></div>
-                        <div class="company-col"><i class="fas fa-times-circle no"></i></div>
-                        <div class="company-col"><i class="fas fa-times-circle no"></i></div>
-                        <div class="company-col"><i class="fas fa-times-circle no"></i></div>
-                    </div>
-
-                    <div class="comparison-row">
-                        <div class="feature-col">
-                            <strong>Compra Simplificada</strong>
-                            <small>Processo otimizado</small>
-                        </div>
-                        <div class="company-col smartbuy"><i class="fas fa-check-circle yes"></i></div>
-                        <div class="company-col"><i class="fas fa-times-circle no"></i></div>
-                        <div class="company-col"><i class="fas fa-times-circle no"></i></div>
-                        <div class="company-col"><i class="fas fa-times-circle no"></i></div>
+                        <div class="company-col"><i class="fas fa-check-circle partial"></i></div>
+                        <div class="company-col"><i class="fas fa-check-circle partial"></i></div>
                         <div class="company-col"><i class="fas fa-times-circle no"></i></div>
                     </div>
                 </div>
             </section>
 
-            <!-- Slide 6: Modelo de Negócio -->
-            <section data-background-color="#f8f9fa">
-                <h2 class="section-title">Modelo de Negócio</h2>
+            <!-- Slide 6: TAM SAM SOM -->
+            <section class="slide">
+                <h2 class="section-title">Oportunidade de Mercado</h2>
 
-                <div class="business-model">
-                    <div class="revenue-card primary" style="--animation-order: 1">
-                        <div class="revenue-icon"><i class="fas fa-percentage"></i></div>
-                        <h3>Receita Principal</h3>
-                        <div class="revenue-number">2,7%</div>
-                        <p>comissão por transação<br><strong>(valor que economizamos em fraudes)</strong></p>
+                <div class="market-opportunity">
+                    <div class="market-circles">
+                        <div class="tam-circle">
+                            <div class="market-label">TAM</div>
+                            <div class="market-value">R$ 350Bi</div>
+                            <div class="market-desc">E-commerce + Digital Payments Brasil</div>
+                        </div>
+
+                        <div class="sam-circle">
+                            <div class="market-label">SAM</div>
+                            <div class="market-value">R$ 23Bi</div>
+                            <div class="market-desc">Payments + Fraud Prevention</div>
+                        </div>
+
+                        <div class="som-circle">
+                            <div class="market-label">SOM</div>
+                            <div class="market-value">R$ 500Mi</div>
+                            <div class="market-desc">Nosso target 3 anos</div>
+                        </div>
                     </div>
 
-                    <div class="revenue-card secondary" style="--animation-order: 2">
-                        <div class="revenue-icon"><i class="fas fa-chart-line"></i></div>
-                        <h3>Receitas Adicionais</h3>
-                        <ul class="revenue-list">
-                            <li><i class="fas fa-star"></i> Assinaturas Premium (Fase 1)</li>
-                            <li><i class="fas fa-database"></i> Dados agregados B2B</li>
-                            <li><i class="fas fa-bullhorn"></i> Marketing direcionado</li>
-                            <li><i class="fas fa-handshake"></i> Parcerias cashback</li>
-                        </ul>
+                    <div class="market-stats">
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-chart-line"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h4>Crescimento Anual</h4>
+                                <p><strong>13,3%</strong> no e-commerce brasileiro</p>
+                            </div>
+                        </div>
+
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-shield-alt"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h4>Problema Real</h4>
+                                <p><strong>R$ 8Bi</strong> perdidos em fraudes anualmente</p>
+                            </div>
+                        </div>
+
+                        <div class="stat-item">
+                            <div class="stat-icon">
+                                <i class="fas fa-users"></i>
+                            </div>
+                            <div class="stat-content">
+                                <h4>Penetração</h4>
+                                <p><strong>87%</strong> dos brasileiros compram online</p>
+                            </div>
+                        </div>
                     </div>
                 </div>
+            </section>
 
-                <div class="market-size">
-                    <p><strong>Mercado TAM:</strong> R$ 100+ bilhões em e-commerce brasileiro anualmente</p>
+            <!-- Slide 7: Modelo de Negócio -->
+            <section class="slide">
+                <h2 class="section-title">Modelo de Negócio</h2>
+
+                <div class="business-model-clean">
+                    <div class="primary-revenue-hero">
+                        <div class="revenue-icon">
+                            <i class="fas fa-percentage"></i>
+                        </div>
+                        <div class="revenue-content">
+                            <h3>Receita Principal</h3>
+                            <div class="revenue-number">2,7%</div>
+                            <p>Comissão por transação</p>
+                        </div>
+                    </div>
+
+                    <div class="revenue-details">
+                        <div class="revenue-side">
+                            <h4>Projeção 3 Anos</h4>
+                            <div class="revenue-list">
+                                <div class="revenue-item">
+                                    <i class="fas fa-shopping-cart"></i>
+                                    <span>100M transações/ano</span>
+                                </div>
+                                <div class="revenue-item">
+                                    <i class="fas fa-calculator"></i>
+                                    <span>Ticket médio R$ 180</span>
+                                </div>
+                                <div class="revenue-item">
+                                    <i class="fas fa-chart-line"></i>
+                                    <span>R$ 486M de receita anual</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="economics-side">
+                            <h4>Economics</h4>
+                            <div class="economics-list">
+                                <div class="econ-item">
+                                    <span class="econ-value">R$ 2,30</span>
+                                    <span class="econ-label">Lucro por transação</span>
+                                </div>
+                                <div class="econ-item">
+                                    <span class="econ-value">R$ 0,40</span>
+                                    <span class="econ-label">Custo operacional</span>
+                                </div>
+                                <div class="econ-item">
+                                    <span class="econ-value">5,7x</span>
+                                    <span class="econ-label">Múltiplo de lucro</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </section>
 
             <!-- Slide 7: Tração -->
-            <section data-background-color="#ffffff">
+            <section class="slide">
                 <h2 class="section-title">Tração Atual</h2>
 
                 <div class="traction-demo">
@@ -307,9 +441,6 @@
                         <video muted playsinline webkit-playsinline preload="auto">
                             <source src="./assets/videos/prototipo rodando.mp4" type="video/mp4">
                         </video>
-                        <div class="video-overlay">
-                            <i class="fas fa-play"></i>
-                        </div>
                     </div>
                 </div>
 
@@ -335,7 +466,7 @@
             </section>
 
             <!-- Slide 8: Roadmap -->
-            <section data-background-color="#f8f9fa">
+            <section class="slide">
                 <h2 class="section-title">Roadmap Estratégico</h2>
 
                 <div class="roadmap">
@@ -387,14 +518,13 @@
             </section>
 
             <!-- Slide 9: Time -->
-            <section data-background-color="#ffffff">
+            <section class="slide">
                 <h2 class="section-title">Time Fundador</h2>
 
                 <div class="team-grid">
                     <div class="team-member">
                         <div class="team-avatar">
-                            <i class="fas fa-code"></i>
-                            <span>DC</span>
+                            <img src="./assets/team-photos/diego.png" alt="Diego Clair">
                         </div>
                         <h4>Diego Clair</h4>
                         <p class="team-role">CTO • Desenvolvimento</p>
@@ -402,8 +532,7 @@
 
                     <div class="team-member">
                         <div class="team-avatar">
-                            <i class="fas fa-chart-line"></i>
-                            <span>CF</span>
+                            <img src="./assets/team-photos/carol.jpeg" alt="Carolina Falcoski">
                         </div>
                         <h4>Carolina Falcoski</h4>
                         <p class="team-role">CMO • Marketing</p>
@@ -411,8 +540,7 @@
 
                     <div class="team-member">
                         <div class="team-avatar">
-                            <i class="fas fa-cogs"></i>
-                            <span>GC</span>
+                            <img src="./assets/team-photos/gloria.jpeg" alt="Gloria Camargo">
                         </div>
                         <h4>Gloria Camargo</h4>
                         <p class="team-role">COO • Operações</p>
@@ -420,8 +548,7 @@
 
                     <div class="team-member">
                         <div class="team-avatar">
-                            <i class="fas fa-calculator"></i>
-                            <span>NT</span>
+                            <img src="./assets/team-photos/natanael.jpeg" alt="Natanael Tavares">
                         </div>
                         <h4>Natanael Tavares</h4>
                         <p class="team-role">CFO • Financeiro</p>
@@ -438,7 +565,7 @@
             </section>
 
             <!-- Slide 10: Contato -->
-            <section data-background-color="#f8f9fa">
+            <section class="slide">
                 <div class="contact-content">
                     <div class="logo-container">
                         <i class="fas fa-shield-alt logo-icon"></i>
