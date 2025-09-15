@@ -1,0 +1,19 @@
+{
+  "name": "smartbuy-pitch",
+  "version": "1.0.0",
+  "description": "SmartBuy Pitch Presentation",
+  "main": "index.html",
+  "scripts": {
+    "dev": "npx serve . -p 5000",
+    "build": "echo 'Static build ready'",
+    "deploy": "npx surge . smartbuy-pitch.surge.sh",
+    "deploy:github": "echo 'Ready for GitHub Pages - commit and push to main branch'"
+  },
+  "keywords": ["smartbuy", "pitch", "presentation"],
+  "author": "SmartBuy Team",
+  "license": "MIT",
+  "devDependencies": {
+    "serve": "^14.2.1",
+    "surge": "^0.23.1"
+  }
+}
