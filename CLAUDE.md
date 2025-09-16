@@ -69,5 +69,22 @@ Esta é uma **apresentação de slides** para investidores, não um website inte
 - Impactante
 - Sem distrações visuais
 
+## 📋 Manutenção de Slides
+**IMPORTANTE**: Sempre que alterar dados ou conteúdo de qualquer slide:
+
+1. **Atualizar README.md** - Seção "🎯 Estrutura da Apresentação"
+   - Incluir novos números, estatísticas ou dados
+   - Atualizar objetivos se mudaram
+   - Manter explicação detalhada de cada slide
+
+2. **Manter consistência** entre slides relacionados:
+   - TAM/SAM/SOM deve alinhar com Modelo de Negócio
+   - Dados de mercado devem ser consistentes em todos os slides
+   - Revenue streams devem estar alinhados
+
+3. **Validar fontes** - Sempre citar ano dos dados (2024, 2025, etc.)
+
+4. **Testar apresentação** após mudanças significativas
+
 ---
 *Sempre consulte este arquivo antes de fazer mudanças no design.*
