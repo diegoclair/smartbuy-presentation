@@ -753,8 +753,13 @@
             }
         });
 
-        // Mouse click navigation (perfect for presenting with mouse only)
+        // Mouse click navigation (only works in presentation mode)
         document.addEventListener('click', function(e) {
+            // Só funciona em modo apresentação (fullscreen)
+            if (!document.fullscreenElement) {
+                return;
+            }
+
             // Ignora cliques em botões e controles
             if (e.target.closest('.fullscreen-control') || e.target.closest('button')) {
                 return;
@@ -766,8 +771,14 @@
             }
         });
 
-        // Clique direito = volta (previne menu de contexto)
+        // Clique direito = volta (só em apresentação)
         document.addEventListener('contextmenu', function(e) {
+            // Só funciona em modo apresentação (fullscreen)
+            if (!document.fullscreenElement) {
+                return; // Permite menu de contexto fora de apresentação
+            }
+
+            // Em apresentação: previne menu e volta slide
             e.preventDefault();
             Reveal.prev();
         });
