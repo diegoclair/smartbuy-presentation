@@ -737,6 +737,9 @@
             minScale: 0.2,
             maxScale: 2.0,
 
+            // Mouse navigation
+            mouseWheel: true,
+
             // Plugins
             plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ],
 
@@ -748,6 +751,25 @@
                 70: function() { toggleFullscreen(); }, // F key
                 191: function() { toggleHelp(); } // ? key
             }
+        });
+
+        // Mouse click navigation (perfect for presenting with mouse only)
+        document.addEventListener('click', function(e) {
+            // Ignora cliques em botões e controles
+            if (e.target.closest('.fullscreen-control') || e.target.closest('button')) {
+                return;
+            }
+
+            // Clique esquerdo = avança
+            if (e.button === 0) {
+                Reveal.next();
+            }
+        });
+
+        // Clique direito = volta (previne menu de contexto)
+        document.addEventListener('contextmenu', function(e) {
+            e.preventDefault();
+            Reveal.prev();
         });
 
         // Fullscreen functionality
@@ -767,17 +789,12 @@
 
         function updateFullscreenButton(isFullscreen) {
             const btn = document.getElementById('fullscreen-btn');
-            const icon = btn.querySelector('i');
-            const text = btn.querySelector('span');
 
             if (isFullscreen) {
-                icon.className = 'fas fa-compress';
-                text.textContent = 'Sair Fullscreen (F)';
-                btn.style.opacity = '0.7';
+                // Oculta o botão durante apresentação (ESC para sair)
+                btn.style.display = 'none';
             } else {
-                icon.className = 'fas fa-expand';
-                text.textContent = 'Modo Apresentação (F)';
-                btn.style.opacity = '1';
+                btn.style.display = 'flex';
             }
         }
 

@@ -1283,16 +1283,16 @@ p {
     color: var(--color-brand-primary);
     border: 1px solid var(--color-brand-primary);
     border-radius: var(--radius-lg);
-    padding: var(--spacing-xs) var(--spacing-sm);
+    padding: 4px 8px;
     cursor: pointer;
     z-index: 1000;
-    font-size: var(--font-size-xs);
+    font-size: 11px;
     opacity: 0.7;
+    display: flex;
+    align-items: center;
+    gap: 4px;
 }
 
-.fullscreen-control i {
-    margin-right: var(--spacing-xs);
-}
 
 .help-overlay {
     position: fixed;

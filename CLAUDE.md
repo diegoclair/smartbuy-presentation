@@ -1,90 +1,138 @@
-# SmartBuy Presentation - Claude Code Guidelines
+# CLAUDE.md
 
-## 🎯 Objetivo
-Esta é uma **apresentação de slides** para investidores, não um website interativo.
+This file provides guidance to Claude Code (claude.ai/code) when working with code in this repository.
 
-## 📋 Regras Fundamentais
+## Project Overview
 
-### ❌ NÃO FAZER:
-- **Efeitos hover/mouse** - Ninguém passa mouse em apresentações
-- **Animações de entrada** - Distraem do conteúdo principal
-- **Transições complexas** - Slides devem ser diretos
-- **Efeitos interativos** - Não é website, é pitch deck
-- **Scroll** - Todo conteúdo deve caber na tela
-- **min-height: 100vh** - Causa problemas de layout
-- **backdrop-filter** - Desnecessário para slides
-- **transform hover** - Sem interatividade
-- **Sombras coloridas/neon** - Parecem amadoras e distraem
+SmartBuy Presentation is a **static investor pitch deck** built with Reveal.js. This is NOT an interactive website - it's a presentation designed to be shown to investors. All design and interaction decisions must reflect this purpose.
 
-### ✅ FAZER:
-- **Design limpo e profissional** - Foco no conteúdo
-- **Conteúdo sempre visível** - Sem cortes ou scroll
-- **Tipografia clara** - Legibilidade máxima
-- **Cores consistentes** - Paleta da marca
-- **Layout responsivo** - Para diferentes resoluções
-- **Elementos bem espaçados** - Respiro visual adequado
+## Development Commands
 
-## 🎨 Diretrizes de Design
+```bash
+# Install dependencies
+npm install
 
-### Layout
-- Tudo deve caber na viewport sem scroll
-- Espaçamento consistente
-- Hierarquia visual clara
-- Centralização perfeita
+# Run local development server (fixed port 5000)
+npm run dev
+# Access at: http://localhost:5000
 
-### Tipografia
-- Títulos: Azul da marca (#4a90e2)
-- Texto secundário: Cinza claro (#cccccc)
-- Tamanhos responsivos com clamp()
+# Deploy to Surge.sh
+npm run deploy
+# Live at: https://smartbuy-pitch.surge.sh
 
-### Cores
-- Primária: #4a90e2 (azul SmartBuy)
-- Secundária: #6bb6ff (azul claro)
-- Background: #1a1a1a (escuro)
-- Cards: Gradiente sutil
+# Prepare for GitHub Pages
+npm run deploy:github
+```
 
-### Componentes
-- Cards com gradientes sutis
-- Bordas arredondadas moderadas
-- Sombras discretas (apenas preto/cinza)
-- Ícones bem proporcionados
-- Evitar efeitos neon ou glows coloridos
+## Architecture
 
-## 🚫 Elementos a Remover/Evitar
-- `:hover` effects
-- `animation` properties
-- `transition` effects
-- `transform` on hover
-- `backdrop-filter`
-- Qualquer JavaScript de interação visual
-- Sombras com cores (box-shadow colorido)
-- Glows e efeitos neon
-- Bordas brilhantes coloridas
+### Tech Stack
+- **Reveal.js 4.6.1** - Presentation framework
+- **Static HTML/CSS** - No build process, no JavaScript frameworks
+- **Google Fonts (Inter)** - Typography
+- **Font Awesome 6.5.1** - Icons
+- **CDN-based** - All libraries loaded from CDN
 
-## ✨ Foco Principal
-**Esta é uma apresentação que será mostrada para investidores. Deve ser:**
-- Profissional
-- Limpa
-- Direta
-- Impactante
-- Sem distrações visuais
+### File Structure
+```
+smartbuy-presentation/
+├── index.html              # Main presentation file (all slides)
+├── styles/
+│   └── main.css           # Primary stylesheet (56KB)
+├── styles.css             # Legacy styles (may be deprecated)
+├── assets/
+│   ├── logo.png           # SmartBuy logo
+│   ├── videos/            # Demo videos (3 files, optimized)
+│   └── team-photos/       # Founder photos
+├── package.json           # NPM scripts only (no build)
+└── README.md              # Detailed slide structure & data
+```
 
-## 📋 Manutenção de Slides
-**IMPORTANTE**: Sempre que alterar dados ou conteúdo de qualquer slide:
+### Key Architecture Decisions
 
-1. **Atualizar README.md** - Seção "🎯 Estrutura da Apresentação"
-   - Incluir novos números, estatísticas ou dados
-   - Atualizar objetivos se mudaram
-   - Manter explicação detalhada de cada slide
+1. **Single HTML File**: All slides are in `index.html` - no routing, no components
+2. **Dual CSS System**: `styles/main.css` (56KB primary) + `styles.css` (legacy, check before modifying)
+3. **Video Strategy**: Optimized MP4s with `muted`, `playsinline`, and `preload="auto"` attributes
+4. **Responsive Design**: Uses `clamp()` for fluid typography, CSS Grid/Flexbox for layout
+5. **No JavaScript**: Reveal.js handles all interactions, no custom JS
 
-2. **Manter consistência** entre slides relacionados:
-   - TAM/SAM/SOM deve alinhar com Modelo de Negócio
-   - Dados de mercado devem ser consistentes em todos os slides
-   - Revenue streams devem estar alinhados
+## Design Philosophy - CRITICAL
 
-3. **Validar fontes** - Sempre citar ano dos dados (2024, 2025, etc.)
+### This is a PRESENTATION, not a website
 
-4. **Testar apresentação** após mudanças significativas
+**NEVER ADD:**
+- ❌ Hover effects (`:hover`)
+- ❌ Animations (`@keyframes`, `animation:`)
+- ❌ Transitions (`transition:`)
+- ❌ Interactive transforms (`transform` on hover)
+- ❌ Backdrop filters
+- ❌ Scrolling (everything must fit viewport)
+- ❌ Colored shadows/glows (neon effects)
+- ❌ `min-height: 100vh` (causes layout issues)
+
+**ALWAYS MAINTAIN:**
+- ✅ Clean, professional design
+- ✅ Content fits in viewport (no scroll)
+- ✅ High contrast typography
+- ✅ Brand color palette (#4a90e2 primary, #6bb6ff secondary, #1a1a1a background)
+- ✅ Subtle gradients on cards
+- ✅ Discrete shadows (black/gray only)
+
+### Brand Colors
+```css
+Primary:   #4a90e2  /* SmartBuy blue - titles */
+Secondary: #6bb6ff  /* Light blue - accents */
+Background: #1a1a1a /* Dark background */
+Text:      #cccccc  /* Light gray - body text */
+```
+
+## Content Management Rules
+
+### When Modifying Slide Data
+
+**CRITICAL**: Any change to slide content MUST update [README.md](README.md) section "🎯 Estrutura da Apresentação"
+
+1. **Update README.md** when changing:
+   - Statistics or numbers
+   - Business model data (TAM/SAM/SOM, revenue streams, unit economics)
+   - Market data or sources
+   - Slide objectives or messaging
+
+2. **Maintain Consistency** across:
+   - TAM/SAM/SOM must align with Business Model slide
+   - Market data must match across all slides
+   - Revenue streams must be consistent
+
+3. **Validate Sources**: Always cite year (2024/2025) and source
+
+4. **Test**: Run `npm run dev` after significant changes
+
+### Data Integrity
+- README.md contains extensive validated statistics with sources
+- All numbers in slides must match README documentation
+- Cross-reference Confluence SmartBuy data when available (see README section "📊 Dados Estatísticos Comprovados")
+
+## Presentation Controls
+
+- **Arrow keys / Space**: Navigate slides
+- **ESC**: Overview mode
+- **F**: Fullscreen
+- **S**: Speaker notes (if implemented)
+
+## Deployment
+
+- **Primary**: Surge.sh at https://smartbuy-pitch.surge.sh
+- **Alternative**: GitHub Pages (commit to main, enable in Settings)
+- **Cache Control**: Headers configured in `index.html` for no-cache (force fresh content)
+
+## Working with This Codebase
+
+1. **Before editing styles**: Check both `styles/main.css` and `styles.css` to understand which is active
+2. **Before changing slides**: Read corresponding section in README.md
+3. **After content changes**: Update README.md structure section
+4. **Test locally**: Always run `npm run dev` before deploying
+5. **No build step**: Changes are immediate, refresh browser to see updates
 
 ---
-*Sempre consulte este arquivo antes de fazer mudanças no design.*
+
+*This is a static presentation for investor pitches. Keep it professional, clean, and distraction-free.*
