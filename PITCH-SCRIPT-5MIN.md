@@ -77,9 +77,9 @@
 
 **[Aponte para os cards]**
 
-> *"50% tiveram cartão clonado nos últimos 5 anos. 27% abandonam compras porque o checkout é complexo demais."*
+> *"50% tiveram cartão clonado nos últimos 5 anos. E o mais impressionante: 93% dos brasileiros já desistiram de uma compra por medo de fraude."*
 
-> *"E olha esse dado: 87% dos brasileiros são vítimas ou conhecem alguém que foi vítima de roubo de dados."*
+> *"93%. Quase TODO MUNDO nessa sala. E olha esse dado: 87% dos brasileiros são vítimas ou conhecem alguém que foi vítima de roubo de dados."*
 
 **[Tom de oportunidade]**
 
@@ -92,7 +92,8 @@
 
 ### 💡 Dica de Apresentação:
 - "59%" deve ser repetido com ênfase
-- Faça contato visual quando falar "metade dessa sala"
+- **"93%"** - PAUSE e deixe o número respirar, é absurdamente alto
+- "Quase TODO MUNDO nessa sala" com olhar varredura pela audiência
 - "Duplo problema, dupla oportunidade" com otimismo na voz
 
 ---
@@ -386,7 +387,7 @@
 
 **[Pausa. Olhe diretamente para os investidores]**
 
-> *"R$ 288 bilhões perdidos em carrinhos abandonados. 87% dos brasileiros vítimas de fraude. Um mercado de R$ 355 bilhões esperando por uma solução."*
+> *"R$ 288 bilhões perdidos em carrinhos abandonados. 87% dos brasileiros vítimas de fraude. E esse mercado de R$ 355 bilhões precisa de uma solução."*
 
 **[Tom confiante e convidativo]**
 

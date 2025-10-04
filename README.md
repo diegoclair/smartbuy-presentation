@@ -415,6 +415,66 @@ Framework para análise de oportunidade de mercado usado por investidores:
 - **Resolve**: SmartBuy elimina essa etapa com dados pré-preenchidos
 
 ### **Fontes Oficiais Validadas:**
+
+#### **Dados de Fraude e Segurança (2024-2025):**
+
+**93% dos consumidores já desistiram de compra por medo de fraude**
+- Fonte: Octadesk + Opinion Box - Pesquisa "E-commerce Trends 26" (2025)
+- URL: https://tiinside.com.br/29/08/2025/93-dos-consumidores-ja-desistiram-de-uma-compra-por-medo-de-fraude-ou-golpe/
+- Contexto: 93% em 2025 vs 92% em 2023 - tendência crescente
+- Uso: Slide 3 - "Todo Brasileiro JÁ VIVEU Isso"
+
+**48% abandonam compra por falta de confiança no site**
+- Fonte: Serasa Experian (2024)
+- URL: https://www.cnnbrasil.com.br/economia/macroeconomia/metade-dos-brasileiros-abandona-compra-on-line-por-inseguranca-diz-serasa/
+- Uso: Alternativa ao dado de 93%
+
+**R$ 3,5 bilhões de prejuízo com fraudes online em 2024**
+- Fonte: ClearSale - Mapa da Fraude 2025
+- URL: https://www.ecommercebrasil.com.br/noticias/brasileiros-perderam-r-35-bilhoes-em-golpes-online-em-2024-aponta-pesquisa
+- Uso: Contexto de impacto financeiro de fraudes
+
+**R$ 3 bilhões em tentativas de fraude bloqueadas (2024)**
+- Fonte: ClearSale - Mapa da Fraude 2025
+- URL: https://br.clear.sale/blog/mapa-da-fraude-2025
+- Uso: Mostra escala do problema de fraude no e-commerce BR
+
+**60% dos brasileiros citam risco de golpes como maior preocupação ao comprar online**
+- Fonte: Octadesk/Opinion Box - E-commerce Trends 26 (2025)
+- Uso: Validação do problema de segurança
+
+**49% têm receio de dados pessoais roubados**
+- Fonte: Octadesk/Opinion Box - E-commerce Trends 26 (2025)
+- Uso: Contexto complementar sobre preocupações
+
+**61% percebem aumento de golpes e fraudes online**
+- Fonte: Octadesk/Opinion Box - E-commerce Trends 26 (2025)
+- Uso: Tendência crescente do problema
+
+**Preocupações específicas dos consumidores:**
+- 37% - Vazamento de dados financeiros
+- 33% - Invasão de conta
+- 23% - Vazamento de dados cadastrais
+- Fonte: Octadesk/Opinion Box - E-commerce Trends 26 (2025)
+
+**Fatores que geram insegurança:**
+- 65% - Ausência de avaliação por outros clientes
+- 53% - Não encontrar loja no Google
+- 51% - Falta de informações claras sobre produto
+- Fonte: Octadesk/Opinion Box - E-commerce Trends 26 (2025)
+
+#### **Dados de Abandono de Carrinho:**
+
+**82% taxa de abandono de carrinho no Brasil**
+- Fonte: E-Commerce Radar (2024)
+- URL: https://monitormercantil.com.br/abandono-de-carrinhos-no-comercio-eletronico-chega-a-82-no-brasil/
+- Uso: Slide 2, Slide 7 (Oportunidade)
+
+**70% abandono por processo complexo**
+- Fonte: Pesquisas consolidadas e-commerce Brasil
+- Uso: Slide 2 - "Comprar Online é uma TORTURA"
+
+#### **Dados Anteriores (manter referência):**
 - CyberSource Report 2024
 - CNDL/SPC Brasil 2024
 - Serasa Experian 2024
