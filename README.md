@@ -107,15 +107,22 @@ A apresentação ficará disponível em: `https://smartbuy-pitch.surge.sh`
 
 ### 7. **Modelo de Negócio**
 - **Receita principal**: 2,7% comissão + múltiplas fontes
+- **🎯 ARGUMENTO MATADOR - Ganha-Ganha-Ganha**:
+  - **Varejista PAGA**: 2,7% comissão SmartBuy
+  - **Varejista JÁ PERDE**: 2,7% em fraudes/chargebacks (média América Latina)
+  - **Resultado**: **CUSTO LÍQUIDO ZERO** (troca custo perdido por investimento com retorno)
+  - **Varejista GANHA**: +60% conversão, -70% abandono, dados valiosos, KYC robusto
+  - **Consumidor GANHA**: R$ 0,00 adicional, checkout 30seg, segurança, sem criar contas
+  - **SmartBuy GANHA**: 2,7% entregando valor real (elimina fraude que custaria isso)
 - **3 Revenue streams**:
   1. **Transações**: Processamento de pagamentos (2,7% sobre [R$ 66,6Bi GMV](#gmv-gross-merchandise-value) = R$ 1,8Bi)
-  2. **[Retail Media](#retail-media)**: Publicidade IN-STREAM durante checkout
-  3. **[Analytics](#analytics-como-produto)**: Relatórios de insights vendidos após transações
+  2. **[Retail Media](#retail-media)**: Publicidade IN-STREAM durante checkout (upside)
+  3. **[Analytics](#analytics-como-produto)**: Relatórios de insights vendidos após transações (upside)
 - **[Unit Economics](#unit-economics) explicados**:
   - 370M transações/ano × R$ 180 ticket médio = R$ 66,6Bi GMV
   - R$ 66,6Bi × 2,7% comissão = R$ 1,8Bi receita anual
-  - R$ 4,86 receita por transação - R$ 1,50 custo = R$ 3,36 margem
-- **Objetivo**: Mostrar modelo escalável e diversificado
+  - R$ 4,86 receita por transação - R$ 1,50 custo = R$ 3,36 margem (69%)
+- **Objetivo**: Mostrar que 2,7% não é custo novo, é substituição de custo existente com upside massivo
 
 ### 8. **Oportunidade de Mercado**
 - **[TAM, SAM, SOM](#tam-sam-som-framework) explicados**:
@@ -125,7 +132,7 @@ A apresentação ficará disponível em: `https://smartbuy-pitch.surge.sh`
 - **Estratégia de alcance**:
   - SmartBuy como canal de pagamento, não marketplace
   - 2-3 grandes parceiros adotando em 15-20% das transações
-  - Exemplo: Magalu (R$ 40Bi/ano) × 20% = R$ 8Bi GMV sozinha
+  - Exemplo: Magalu (R$ 65Bi em 2024) × 20% = R$ 13Bi GMV sozinha
 - **Dados suporte 2024**:
   - R$ 288Bi perdidos em [abandono carrinho](#abandono-de-carrinho) (82% × R$ 351,4Bi)
   - R$ 37,9Bi mercado publicidade digital total
@@ -141,8 +148,8 @@ A apresentação ficará disponível em: `https://smartbuy-pitch.surge.sh`
 - **Objetivo**: Mostrar progresso atual de forma transparente e realista
 
 ### 10. **Roadmap Estratégico**
-- **Fase 1 (2026)**: Super Assistente IA + Freemium WhatsApp + Construção da base de usuários
-- **Fase 2 (2027)**: Checkout SmartBuy + QR Code + Biometria + Parcerias com e-commerces menores
+- **Fase 1 (2026)**: Super Assistente IA + Cashback via links de afiliados + Construção da base de usuários
+- **Fase 2 (2026/27)**: Checkout SmartBuy + QR Code + Biometria + Parcerias com e-commerces menores + Monetização via comissão 2,7%
 - **Fase 3 (2028-2029)**: Grandes Players + Integração com líderes (Magalu, B2W, Via) + Varejo físico + Banking services básicos
 - **Objetivo**: Mostrar evolução gradual e realista focada no mercado brasileiro
 
@@ -276,7 +283,7 @@ Framework para análise de oportunidade de mercado usado por investidores:
 - **Como alcançar**: SmartBuy é um canal de pagamento, não marketplace
   - Não precisamos dominar o mercado inteiro
   - Precisamos de 2-3 grandes parceiros adotando SmartBuy em 15-20% das transações
-  - Exemplo: Magalu (R$ 40Bi/ano) × 20% = R$ 8Bi GMV
+  - Exemplo: Magalu (R$ 65Bi em 2024) × 20% = R$ 13Bi GMV
   - Via (R$ 30Bi) + B2W (R$ 25Bi) parcialmente integrados completam os R$ 66Bi
 - **Por que vão integrar**: Menos fraudes, menos chargebacks, mais conversão, dados valiosos
 
