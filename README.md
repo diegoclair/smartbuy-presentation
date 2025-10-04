@@ -57,26 +57,21 @@ A apresentação ficará disponível em: `https://smartbuy-pitch.surge.sh`
 - **Tags principais**: Cadastro Único, Compra Instantânea, Máxima Segurança
 - **Objetivo**: Despertar interesse e mostrar a solução funcionando
 
-### 2. **Todo Brasileiro JÁ VIVEU Isso**
+### 2. **Comprar Online é uma TORTURA** (Problema de Conveniência)
+- **Big stat**: 8 minutos - tempo médio para finalizar uma compra online hoje
+- **Pain points detalhados**:
+  - 70% abandono de carrinho por processo complexo
+  - 24 campos média exigidos pelos grandes e-commerces
+  - 71% têm medo de sofrer fraudes online
+- **Objetivo**: Estabelecer o problema de CONVENIÊNCIA e FRICÇÃO no processo de compra
+
+### 3. **Todo Brasileiro JÁ VIVEU Isso** (Problema de Segurança)
 - **Big stat**: 59% sofreram fraude financeira online (12 meses)
 - **Pain points detalhados**:
-  - 50% cartão clonado (5 anos)
-  - 71% têm medo de comprar online
-  - 8 min para fazer uma compra
-- **Objetivo**: Validar o problema real e urgente
-
-### 3. **O Impacto é BILIONÁRIO**
-- **Valor principal**: R$ 36 bi perdidos por estratégias inadequadas de pagamento
-  - *Fonte*: Pesquisa global sobre perdas por medo de fraude (2024)
-  - *Significa*: Varejistas recusam pedidos legítimos com medo de fraude
-- **Dados atualizados 2024**:
-  - 87% brasileiros vítimas de roubo de dados
-    - *Contexto*: Ou conhecem alguém que foi vítima
-  - 70% abandono carrinho por processo complexo
-    - *Explicação*: Taxa de abandono Brasil vs 68% média global
-  - 60% medo de golpes e fraudes
-    - *Impacto*: Principal motivo para não comprar online
-- **Objetivo**: Quantificar o problema em bilhões com dados verificáveis
+  - 50% já tiveram cartão clonado nos últimos 5 anos
+  - 27% abandonam compras por checkout complexo
+  - 87% brasileiros vítimas ou conhecem vítimas de roubo de dados
+- **Objetivo**: Estabelecer o problema de SEGURANÇA e criar senso de urgência
 
 ### 4. **Nossa Solução**
 - **Vídeo central**: "Compra de Celular no Metrô" - caso real
@@ -89,7 +84,7 @@ A apresentação ficará disponível em: `https://smartbuy-pitch.surge.sh`
 ### 5. **Proposta de Valor**
 - **Duas audiências**: Consumidores vs Varejistas
 - **Consumidores**: Zero Fricção + Máxima Segurança + Instantâneo
-- **Varejistas**: 2,7% economia + 60% conversão + Dados Valiosos
+- **Varejistas**: 2,7% economia (redução fraudes/chargebacks) + 60% conversão + Dados Valiosos
 - **Objetivo**: Mostrar win-win para todos os stakeholders
 
 ### 6. **Diferencial Competitivo**
@@ -102,9 +97,9 @@ A apresentação ficará disponível em: `https://smartbuy-pitch.surge.sh`
     - *Apple Pay*: Só iOS/macOS ❌
     - *Google Pay*: Limitado no iOS ❌
     - *SmartBuy*: Android, iOS, qualquer browser ✅
-  - **Zero digitação de dados** (incluindo pessoais):
-    - *Apple/Google Pay*: Não digitam dados de pagamento, MAS ainda precisam preencher dados pessoais no site 🟡
-    - *SmartBuy*: Zero digitação de qualquer dado ✅
+  - **Zero digitação de dados** (incluindo cadastro):
+    - *Apple/Google Pay*: Resolvem pagamento, MAS você ainda precisa criar conta no site (nome, CPF, endereço, etc) 🟡
+    - *SmartBuy*: Single Sign-On universal - um cadastro, nunca mais preenche nada ✅
   - **Parcelamento integrado**:
     - *Apple/Google Pay*: Não oferecem parcelamento próprio ❌
     - *SmartBuy + PayPal*: Parcelamento disponível ✅
@@ -126,12 +121,16 @@ A apresentação ficará disponível em: `https://smartbuy-pitch.surge.sh`
 - **[TAM, SAM, SOM](#tam-sam-som-framework) explicados**:
   - **[TAM](#tam-total-addressable-market)**: R$ 355Bi (mercado total disponível)
   - **[SAM](#sam-serviceable-addressable-market)**: R$ 54Bi (fatia endereçável)
-  - **[SOM](#som-serviceable-obtainable-market)**: R$ 1,8Bi (meta realista 3 anos)
+  - **[SOM](#som-serviceable-obtainable-market)**: R$ 1,8Bi processando R$ 66,6Bi GMV em 4 anos (2026-2029)
+- **Estratégia de alcance**:
+  - SmartBuy como canal de pagamento, não marketplace
+  - 2-3 grandes parceiros adotando em 15-20% das transações
+  - Exemplo: Magalu (R$ 40Bi/ano) × 20% = R$ 8Bi GMV sozinha
 - **Dados suporte 2024**:
   - R$ 288Bi perdidos em [abandono carrinho](#abandono-de-carrinho) (82% × R$ 351,4Bi)
   - R$ 37,9Bi mercado publicidade digital total
   - 19% a.a. crescimento e-commerce ([CAGR](#cagr-taxa-de-crescimento) 2024-2027)
-- **Objetivo**: Demonstrar oportunidade bilionária com dados reais e metodologia clara
+- **Objetivo**: Demonstrar oportunidade bilionária com dados reais, estratégia clara e meta defensável
 
 ### 9. **Onde Estamos**
 - **Vídeo**: "Protótipo rodando" - demonstração do app atual
@@ -142,9 +141,9 @@ A apresentação ficará disponível em: `https://smartbuy-pitch.surge.sh`
 - **Objetivo**: Mostrar progresso atual de forma transparente e realista
 
 ### 10. **Roadmap Estratégico**
-- **Fase 1 (2025)**: Super Assistente IA + Freemium WhatsApp + Construção da base de usuários
-- **Fase 2 (2026)**: Checkout SmartBuy + QR Code + Biometria + Parcerias com e-commerces menores
-- **Fase 3 (2027-2028)**: Grandes Players + Integração com líderes (Magalu, B2W, Via) + Varejo físico + Banking services básicos
+- **Fase 1 (2026)**: Super Assistente IA + Freemium WhatsApp + Construção da base de usuários
+- **Fase 2 (2027)**: Checkout SmartBuy + QR Code + Biometria + Parcerias com e-commerces menores
+- **Fase 3 (2028-2029)**: Grandes Players + Integração com líderes (Magalu, B2W, Via) + Varejo físico + Banking services básicos
 - **Objetivo**: Mostrar evolução gradual e realista focada no mercado brasileiro
 
 ### 11. **Time Fundador**
@@ -258,15 +257,28 @@ Framework para análise de oportunidade de mercado usado por investidores:
 
 #### **SAM (Serviceable Addressable Market)**
 - **Definição**: Porção do TAM que SmartBuy realmente pode endereçar
-- **SmartBuy**: R$ 54Bi calculado como:
-  - R$ 28,8Bi recovery abandono carrinho (10% de R$ 288Bi perdidos)
-  - R$ 17,6Bi melhoria conversão (5% de R$ 351,4Bi e-commerce)
-  - R$ 2Bi retail media via QR Codes
-  - R$ 5-10Bi impulse buying + seamless experience
+- **SmartBuy**: R$ 170Bi - E-commerce de produtos físicos esporádicos
+- **Inclui**:
+  - Moda: R$ 50Bi (compras 2-3x/ano em sites diferentes)
+  - Eletrônicos: R$ 45Bi (compras ocasionais, alto ticket)
+  - Casa/Decoração: R$ 30Bi (compras esporádicas)
+  - Beleza/Cosméticos: R$ 25Bi (variedade de marcas)
+  - Outros varejo: R$ 20Bi (farmácias online, etc)
+- **Exclui**:
+  - Serviços recorrentes (Netflix, Spotify, iFood)
+  - Marketplaces dominantes com solução própria (Mercado Livre forte)
+  - Contas mensais (telefone, internet)
+- **Por que esse SAM**: SmartBuy resolve fricção em compras ESPORÁDICAS onde cliente não tem conta e não vale a pena criar
 
 #### **SOM (Serviceable Obtainable Market)**
 - **Definição**: Fatia que SmartBuy pode capturar realisticamente
-- **SmartBuy**: R$ 1,8Bi em 3 anos (3,3% do SAM - meta ambiciosa mas realista)
+- **SmartBuy**: R$ 1,8Bi em 4 anos processando R$ 66,6Bi GMV (2026-2029)
+- **Como alcançar**: SmartBuy é um canal de pagamento, não marketplace
+  - Não precisamos dominar o mercado inteiro
+  - Precisamos de 2-3 grandes parceiros adotando SmartBuy em 15-20% das transações
+  - Exemplo: Magalu (R$ 40Bi/ano) × 20% = R$ 8Bi GMV
+  - Via (R$ 30Bi) + B2W (R$ 25Bi) parcialmente integrados completam os R$ 66Bi
+- **Por que vão integrar**: Menos fraudes, menos chargebacks, mais conversão, dados valiosos
 
 ### **GMV (Gross Merchandise Value)**
 - **Definição**: Volume bruto total de transações processadas pela plataforma

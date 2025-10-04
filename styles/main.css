@@ -1425,9 +1425,10 @@ kbd {
 .market-stats {
     display: flex;
     justify-content: center;
-    gap: var(--spacing-xl);
-    flex-wrap: wrap;
-    max-width: 80%;
+    gap: var(--spacing-lg);
+    flex-wrap: nowrap;
+    max-width: 100%;
+    margin: 0 auto;
 }
 
 .stat-item {
@@ -1439,7 +1440,9 @@ kbd {
     padding: var(--spacing-lg);
     border: 1px solid var(--color-surface-border);
     box-shadow: var(--shadow-card);
-    min-width: 200px;
+    flex: 1;
+    min-width: 280px;
+    max-width: 420px;
 }
 
 .stat-icon {
